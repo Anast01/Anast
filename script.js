@@ -26,7 +26,7 @@ async function guessNumber() {
         return;
     }
 
-    const contractAddress = "YOUR_CONTRACT_ADDRESS";
+    const contractAddress = "0x30f2aa04321169F5F3F54290811c5C4f71c19E74";
     const contractAbi = [
         // Your contract ABI (interface)
         // ...
