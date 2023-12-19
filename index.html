@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess Number Game</h1>
+        <p>Guess a number between 0 and 10:</p>
+        <input type="number" id="guessInput" min="0" max="10">
+        <button onclick="guessNumber()">Guess</button>
+        <p id="result"></p>
+        <p>Remaining Cooldown: <span id="cooldown"></span> seconds</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
